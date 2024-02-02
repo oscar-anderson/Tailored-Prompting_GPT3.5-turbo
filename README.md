@@ -30,9 +30,9 @@ Before using this script, make sure that you have the following:
 
 ## Usage
 
-1. Open the script file (`prompt_gpt3.5.py`) and replace `'YOUR_API_KEY'` with your actual OpenAI API key.
+1. Open the script file (`prompt_gpt3.5.py`) and replace `'your-api-key'` with your actual OpenAI API key.
 
-2. You can customise the `prompt_text`, `topic` and 'api_key' variables within the script, to fit your requirements.
+2. You can customise the 'api_key', `prompt_text` and `topic` variables within the script, to fit your requirements.
 
 3. Run the script:
 
@@ -44,8 +44,8 @@ Before using this script, make sure that you have the following:
 
 ## Function Parameters
 
-- `prompt_text` (str): The user's prompt for the model.
 - `api_key` (str): Your OpenAI API key.
+- `prompt_text` (str): The user's prompt for the model.
 - `topic` (str, optional): The topic for the model to recruit expertise in.
 
 ## Additional Information
@@ -59,7 +59,7 @@ Note: Ensure that you follow OpenAI's usage policies and guidelines when interac
 Here's an example usage of the script:
 
 ```python
-api_key = 'your-actual-api-key'
+api_key = 'your-api-key'
 prompt_text = 'Explain Generative Pre-Trained Transformers'
 topic = 'Artificial Intelligence'
 
