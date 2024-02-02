@@ -32,7 +32,7 @@ Before using this script, make sure that you have the following:
 
 1. Open the script file (`prompt_gpt3.5.py`) and replace `'your-api-key'` with your actual OpenAI API key.
 
-2. You can customise the 'api_key', `prompt_text` and `topic` variables within the script, to fit your requirements.
+2. You can customise the `api_key`, `prompt_text` and `topic` variables within the script, to fit your requirements.
 
 3. Run the script:
 
