@@ -59,11 +59,9 @@ Note: Ensure that you follow OpenAI's usage policies and guidelines when interac
 Here's an example usage of the script:
 
 ```python
-from submit_prompt import submit_prompt
-
+api_key = 'your-actual-api-key'
 prompt_text = 'Explain Generative Pre-Trained Transformers'
 topic = 'Artificial Intelligence'
-api_key = 'your-actual-api-key'
 
-response = submit_prompt(prompt_text, api_key, topic)
+response = submit_prompt(api_key, prompt_text, topic)
 print(response)
