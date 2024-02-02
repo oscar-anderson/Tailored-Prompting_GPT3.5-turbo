@@ -1,4 +1,4 @@
-# Tailored Prompt Interaction with OpenAI GPT-3.5-turbo
+# Tailored Prompts with OpenAI GPT-3.5-turbo
 
 This Python script provides a convenient way to interact with the OpenAI GPT-3.5-turbo model using the OpenAI API. The `submit_prompt` function allows users to submit prompts tailored to their background information and specific topic instructions, receiving responses from the model accordingly. Speciically, this script is currently constructed to allow me to interact with OpenAI's GPT-3.5 turbo and receive responses that prioritise relevance, safety and account for my own specific level of understanding/area of expertise.
 
