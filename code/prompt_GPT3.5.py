@@ -47,8 +47,7 @@ def submit_prompt(prompt_text: str, api_key: str, topic: str = None,) -> str:
     '''
     
     post_prompt = '''
-    Please tailor your response according to my level of understanding and the role
-    that I have assigned you.
+    Please tailor your response according to my level of understanding.
     '''
 
     if topic is not None:
