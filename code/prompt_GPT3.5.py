@@ -77,7 +77,7 @@ def submit_prompt(prompt_text: str, api_key: str, topic: str = None,) -> str:
 # Call functions to submit a tailored prompt (example usage).
 prompt_text = 'Explain Generative Pre-Trained Transformers'
 topic = 'Artificial Intelligence'
-api_key = # Enter API key here.
+api_key = 'your-api-key-here'
 
 response = submit_prompt(prompt_text, api_key, topic)
 print(response)
